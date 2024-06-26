@@ -1,0 +1,29 @@
+.navbar {
+    background-color: #f8f8f8;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+  }
+  .heading{
+    position: absolute;
+    background-color: #f8f8f8;
+    height: 50px;
+    display: flex;
+    justify-content:flex-start;
+    align-items:center;
+    top: 10px;
+  }
+  
+  .navbar a ,
+  .heading a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 10px;
+    margin: 0 5px;
+  }
+  
+  .navbar a:hover {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }

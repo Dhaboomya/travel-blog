@@ -1,0 +1,59 @@
+.post {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .postImg {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .postInfo {
+    padding: 20px;
+  }
+  
+  .postCats {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+  
+  .postCat {
+    margin-right: 10px;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .link:hover {
+    color: #ff6b6b;
+  }
+  
+  .postTitle {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .postTitle:hover {
+    color: #ff6b6b;
+  }
+  
+  .postDate {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 10px;
+  }
+  
+  .postDesc {
+    font-size: 14px;
+    line-height: 1.5;
+  }

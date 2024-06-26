@@ -1,0 +1,71 @@
+/* CSS code for the Blogwrite component */
+
+/* Blogwrite container */
+.blogwrite-container {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #75afee;
+  }
+  
+  /* Blogwrite form */
+  .blogwrite-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  /* Blogwrite input label */
+  .blogwrite-label {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  /* Blogwrite input */
+  .blogwrite-input {
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 300px;
+  }
+  
+  /* Blogwrite buttons container */
+  .blogwrite-buttons {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  /* Blogwrite cancel button */
+  .blogwrite-cancel-button {
+    padding: 10px 20px;
+    background-color:#0056b3;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .blogwrite-cancel-button:hover {
+    background-color: #999;
+  }
+  
+  /* Blogwrite submit button */
+  .blogwrite-submit-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .blogwrite-submit-button:hover {
+    background-color: #0056b3;
+  }
+  
